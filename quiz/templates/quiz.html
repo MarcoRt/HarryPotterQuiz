@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,5 +5,22 @@
 </head>
 <body>
     <p> I wish that we can talk about it</p>
+  {% if casa == False %}
+  <form method="POST">
+	{% csrf_token %}
+	{{ Pregunta_1.as_p }}
+  {{ Pregunta_2.as_p }}
+  {{ Pregunta_3.as_p }}
+  {{ Pregunta_4.as_p }}
+  {{ Pregunta_5.as_p }}
+  {{ Pregunta_6.as_p }}
+  {{ Pregunta_7.as_p }}
+  {{ Pregunta_8.as_p }}
+	<input type="submit" value="Submit">
+</form>
+{% endif %}
+{% if casa%}
+<strong>{{ casa }}</strong>
+{% endif %}
 </body>
 </html>
