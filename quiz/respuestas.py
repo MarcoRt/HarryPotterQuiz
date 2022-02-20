@@ -1,0 +1,679 @@
+# Calcula el porcetanje asignado para el conjunto 1 de preguntas
+def Porcentaje_Pregunta1(pregunta, respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(pregunta==1 and respuesta=='1'):
+        Gryffindor = 73
+        Ravenclaw = 73
+        Hufflepuff = 30
+        Slytherin = 26
+    if(pregunta==1 and respuesta=='2'):
+        Gryffindor = 27
+        Ravenclaw = 27
+        Hufflepuff = 70
+        Slytherin = 74
+    if(pregunta==2 and respuesta=='1'):
+        Gryffindor = 74
+        Ravenclaw = 73
+        Hufflepuff = 26
+        Slytherin = 28
+    if(pregunta==2 and respuesta=='2'):
+        Gryffindor = 26
+        Ravenclaw = 27
+        Hufflepuff = 74
+        Slytherin = 72
+    if(pregunta==3 and respuesta=='1'):
+        Gryffindor = 27
+        Ravenclaw = 74
+        Hufflepuff = 33
+        Slytherin = 72
+    if(pregunta==3 and respuesta=='2'):
+        Gryffindor = 73
+        Ravenclaw = 26
+        Hufflepuff = 67
+        Slytherin = 28
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+# Calcula el porcetanje asignado para el conjunto 2 de preguntas
+def Porcentaje_Pregunta2(pregunta, respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(pregunta==1 and respuesta=='1'):
+        Gryffindor = 17
+        Ravenclaw = 18
+        Hufflepuff = 19
+        Slytherin = 45
+    if(pregunta==1 and respuesta=='2'):
+        Gryffindor = 19
+        Ravenclaw = 50
+        Hufflepuff = 19
+        Slytherin = 17
+    if(pregunta==1 and respuesta=='3'):
+        Gryffindor = 47
+        Ravenclaw = 17
+        Hufflepuff = 18
+        Slytherin = 20
+    if(pregunta==1 and respuesta=='4'):
+        Gryffindor = 17
+        Ravenclaw = 15
+        Hufflepuff = 44
+        Slytherin = 18
+    if(pregunta==2 and respuesta=='1'):
+        Gryffindor = 18
+        Ravenclaw = 16
+        Hufflepuff = 42
+        Slytherin = 19
+    if(pregunta==2 and respuesta=='2'):
+        Gryffindor = 46
+        Ravenclaw = 19
+        Hufflepuff = 14
+        Slytherin = 19
+    if(pregunta==2 and respuesta=='3'):
+        Gryffindor = 18
+        Ravenclaw = 45
+        Hufflepuff = 22
+        Slytherin = 17
+    if(pregunta==2 and respuesta=='4'):
+        Gryffindor = 18
+        Ravenclaw = 20
+        Hufflepuff = 22
+        Slytherin = 45
+    if(pregunta==3 and respuesta=='1'):
+        Gryffindor = 19
+        Ravenclaw = 46
+        Hufflepuff = 19
+        Slytherin = 16
+    if(pregunta==3 and respuesta=='2'):
+        Gryffindor = 17
+        Ravenclaw = 16
+        Hufflepuff = 44
+        Slytherin = 17
+    if(pregunta==3 and respuesta=='3'):
+        Gryffindor = 20
+        Ravenclaw = 22
+        Hufflepuff = 20
+        Slytherin = 44
+    if(pregunta==3 and respuesta=='4'):
+        Gryffindor = 44
+        Ravenclaw = 17
+        Hufflepuff = 16
+        Slytherin = 23
+    if(pregunta==4 and respuesta=='1'):
+        Gryffindor = 19
+        Ravenclaw = 18
+        Hufflepuff = 44
+        Slytherin = 20
+    if(pregunta==4 and respuesta=='2'):
+        Gryffindor = 47
+        Ravenclaw = 19
+        Hufflepuff = 17
+        Slytherin = 17
+    if(pregunta==4 and respuesta=='3'):
+        Gryffindor = 18
+        Ravenclaw = 43
+        Hufflepuff = 20
+        Slytherin = 18
+    if(pregunta==4 and respuesta=='4'):
+        Gryffindor = 16
+        Ravenclaw = 20
+        Hufflepuff = 20
+        Slytherin = 45
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+# Calcula el porcetanje asignado para el conjunto 3 de preguntas
+def Porcentaje_Pregunta3(pregunta, respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(pregunta==1 and respuesta=='1'):
+        Gryffindor = 21
+        Ravenclaw = 44
+        Hufflepuff = 19
+        Slytherin = 18
+    if(pregunta==1 and respuesta=='2'):
+        Gryffindor = 19
+        Ravenclaw = 19
+        Hufflepuff = 43
+        Slytherin = 20
+    if(pregunta==1 and respuesta=='3'):
+        Gryffindor = 41
+        Ravenclaw = 18
+        Hufflepuff = 19
+        Slytherin = 19
+    if(pregunta==1 and respuesta=='4'):
+        Gryffindor = 18
+        Ravenclaw = 19
+        Hufflepuff = 19
+        Slytherin = 43
+    if(pregunta==2 and respuesta=='1'):
+        Gryffindor = 17
+        Ravenclaw = 20
+        Hufflepuff = 20
+        Slytherin = 48
+    if(pregunta==2 and respuesta=='2'):
+        Gryffindor = 18
+        Ravenclaw = 17
+        Hufflepuff = 44
+        Slytherin = 18
+    if(pregunta==2 and respuesta=='3'):
+        Gryffindor = 21
+        Ravenclaw = 46
+        Hufflepuff = 19
+        Slytherin = 18
+    if(pregunta==2 and respuesta=='4'):
+        Gryffindor = 44
+        Ravenclaw = 17
+        Hufflepuff = 17
+        Slytherin = 16
+    if(pregunta==3 and respuesta=='1'):
+        Gryffindor = 17
+        Ravenclaw = 45
+        Hufflepuff = 18
+        Slytherin = 16
+    if(pregunta==3 and respuesta=='2'):
+        Gryffindor = 18
+        Ravenclaw = 15
+        Hufflepuff = 42
+        Slytherin = 17
+    if(pregunta==3 and respuesta=='3'):
+        Gryffindor = 16
+        Ravenclaw = 22
+        Hufflepuff = 21
+        Slytherin = 46
+    if(pregunta==3 and respuesta=='4'):
+        Gryffindor = 49
+        Ravenclaw = 18
+        Hufflepuff = 19
+        Slytherin = 21
+    if(pregunta==4 and respuesta=='1'):
+        Gryffindor = 14
+        Ravenclaw = 18
+        Hufflepuff = 46
+        Slytherin = 18
+    if(pregunta==4 and respuesta=='2'):
+        Gryffindor = 18
+        Ravenclaw = 20
+        Hufflepuff = 16
+        Slytherin = 46
+    if(pregunta==4 and respuesta=='3'):
+        Gryffindor = 19
+        Ravenclaw = 44
+        Hufflepuff = 21
+        Slytherin = 19
+    if(pregunta==4 and respuesta=='4'):
+        Gryffindor = 49
+        Ravenclaw = 19
+        Hufflepuff = 17
+        Slytherin = 17
+    if(pregunta==5 and respuesta=='1'):
+        Gryffindor = 44
+        Ravenclaw = 17
+        Hufflepuff = 16
+        Slytherin = 21
+    if(pregunta==5 and respuesta=='2'):
+        Gryffindor = 21
+        Ravenclaw = 22
+        Hufflepuff = 18
+        Slytherin = 46
+    if(pregunta==5 and respuesta=='3'):
+        Gryffindor = 16
+        Ravenclaw = 45
+        Hufflepuff = 22
+        Slytherin = 15
+    if(pregunta==5 and respuesta=='4'):
+        Gryffindor = 19
+        Ravenclaw = 15
+        Hufflepuff = 43
+        Slytherin = 18
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+# Calcula el porcetanje asignado para el conjunto 4 de preguntasporcetanje
+def Porcentaje_Pregunta4(pregunta, respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(pregunta==1 and respuesta=='1'):
+        Gryffindor = 10
+        Ravenclaw = 29
+        Hufflepuff = 28
+        Slytherin = 10
+    if(pregunta==1 and respuesta=='2'):
+        Gryffindor = 14
+        Ravenclaw = 14
+        Hufflepuff = 25
+        Slytherin = 26
+    if(pregunta==1 and respuesta=='3'):
+        Gryffindor = 32
+        Ravenclaw = 13
+        Hufflepuff = 24
+        Slytherin = 9
+    if(pregunta==1 and respuesta=='4'):
+        Gryffindor = 32
+        Ravenclaw = 13
+        Hufflepuff = 10
+        Slytherin = 28
+    if(pregunta==1 and respuesta=='5'):
+        Gryffindor = 11
+        Ravenclaw = 32
+        Hufflepuff = 12
+        Slytherin = 27
+    if(pregunta==2 and respuesta=='1'):
+        Gryffindor = 23
+        Ravenclaw = 10
+        Hufflepuff = 22
+        Slytherin = 9
+    if(pregunta==2 and respuesta=='2'):
+        Gryffindor = 14
+        Ravenclaw = 11
+        Hufflepuff = 14
+        Slytherin = 31
+    if(pregunta==2 and respuesta=='3'):
+        Gryffindor = 12
+        Ravenclaw = 30
+        Hufflepuff = 13
+        Slytherin = 11
+    if(pregunta==2 and respuesta=='4'):
+        Gryffindor = 29
+        Ravenclaw = 12
+        Hufflepuff = 12
+        Slytherin = 13
+    if(pregunta==2 and respuesta=='5'):
+        Gryffindor = 13
+        Ravenclaw = 10
+        Hufflepuff = 28
+        Slytherin = 11
+    if(pregunta==2 and respuesta=='6'):
+        Gryffindor = 9
+        Ravenclaw = 27
+        Hufflepuff = 11
+        Slytherin = 24
+    if(pregunta==3 and respuesta=='1'):
+        Gryffindor = 10
+        Ravenclaw = 24
+        Hufflepuff = 10
+        Slytherin = 24
+    if(pregunta==3 and respuesta=='2'):
+        Gryffindor = 16
+        Ravenclaw = 31
+        Hufflepuff = 13
+        Slytherin = 12
+    if(pregunta==3 and respuesta=='3'):
+        Gryffindor = 23
+        Ravenclaw = 8
+        Hufflepuff = 23
+        Slytherin = 9
+    if(pregunta==3 and respuesta=='4'):
+        Gryffindor = 24
+        Ravenclaw = 11
+        Hufflepuff = 11
+        Slytherin = 19
+    if(pregunta==3 and respuesta=='5'):
+        Gryffindor = 15
+        Ravenclaw = 12
+        Hufflepuff = 29
+        Slytherin = 10
+    if(pregunta==3 and respuesta=='6'):
+        Gryffindor = 12
+        Ravenclaw = 15
+        Hufflepuff = 14
+        Slytherin = 26
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+# Calcula el porcetanje asignado para el conjunto 5 de preguntas
+def Porcentaje_Pregunta5(pregunta, respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(pregunta==1 and respuesta=='1'):
+        Gryffindor = 10
+        Ravenclaw = 22
+        Hufflepuff = 10
+        Slytherin = 22
+    if(pregunta==1 and respuesta=='2'):
+        Gryffindor = 33
+        Ravenclaw = 10
+        Hufflepuff = 14
+        Slytherin = 13
+    if(pregunta==1 and respuesta=='3'):
+        Gryffindor = 13
+        Ravenclaw = 9
+        Hufflepuff = 26
+        Slytherin = 18
+    if(pregunta==1 and respuesta=='4'):
+        Gryffindor = 11
+        Ravenclaw = 19
+        Hufflepuff = 24
+        Slytherin = 9
+    if(pregunta==1 and respuesta=='5'):
+        Gryffindor = 18
+        Ravenclaw = 13
+        Hufflepuff = 13
+        Slytherin = 28
+    if(pregunta==1 and respuesta=='6'):
+        Gryffindor = 15
+        Ravenclaw = 28
+        Hufflepuff = 13
+        Slytherin = 10
+    if(pregunta==2 and respuesta=='1'):
+        Gryffindor = 19
+        Ravenclaw = 6
+        Hufflepuff = 9
+        Slytherin = 23
+    if(pregunta==2 and respuesta=='2'):
+        Gryffindor = 9
+        Ravenclaw = 27
+        Hufflepuff = 13
+        Slytherin = 12
+    if(pregunta==2 and respuesta=='3'):
+        Gryffindor = 19
+        Ravenclaw = 7
+        Hufflepuff = 18
+        Slytherin = 9
+    if(pregunta==2 and respuesta=='4'):
+        Gryffindor = 10
+        Ravenclaw = 11
+        Hufflepuff = 11
+        Slytherin = 28
+    if(pregunta==2 and respuesta=='5'):
+        Gryffindor = 9
+        Ravenclaw = 9
+        Hufflepuff = 27
+        Slytherin = 10
+    if(pregunta==2 and respuesta=='6'):
+        Gryffindor = 24
+        Ravenclaw = 13
+        Hufflepuff = 11
+        Slytherin = 9
+    if(pregunta==2 and respuesta=='7'):
+        Gryffindor = 11
+        Ravenclaw = 27
+        Hufflepuff = 11
+        Slytherin = 10
+    if(pregunta==3 and respuesta=='1'):
+        Gryffindor = 20
+        Ravenclaw = 19
+        Hufflepuff = 8
+        Slytherin = 8
+    if(pregunta==3 and respuesta=='2'):
+        Gryffindor = 10
+        Ravenclaw = 23
+        Hufflepuff = 9
+        Slytherin = 16
+    if(pregunta==3 and respuesta=='3'):
+        Gryffindor = 9
+        Ravenclaw = 8
+        Hufflepuff = 20
+        Slytherin = 20
+    if(pregunta==3 and respuesta=='4'):
+        Gryffindor = 24
+        Ravenclaw = 23
+        Hufflepuff = 8
+        Slytherin = 6
+    if(pregunta==3 and respuesta=='5'):
+        Gryffindor = 9
+        Ravenclaw = 12
+        Hufflepuff = 12
+        Slytherin = 26
+    if(pregunta==3 and respuesta=='6'):
+        Gryffindor = 22
+        Ravenclaw = 8
+        Hufflepuff = 20
+        Slytherin = 6
+    if(pregunta==3 and respuesta=='7'):
+        Gryffindor = 6
+        Ravenclaw = 8
+        Hufflepuff = 22
+        Slytherin = 19
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+# Calcula el porcetanje asignado para el conjunto 6 de preguntas
+def Porcentaje_Pregunta6(pregunta, respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(pregunta==1 and respuesta=='1'):
+        Gryffindor = 20
+        Ravenclaw = 44
+        Hufflepuff = 18
+        Slytherin = 23
+    if(pregunta==1 and respuesta=='2'):
+        Gryffindor = 16
+        Ravenclaw = 17
+        Hufflepuff = 47
+        Slytherin = 17
+    if(pregunta==1 and respuesta=='3'):
+        Gryffindor = 18
+        Ravenclaw = 19
+        Hufflepuff = 16
+        Slytherin = 42
+    if(pregunta==1 and respuesta=='4'):
+        Gryffindor = 46
+        Ravenclaw = 19
+        Hufflepuff = 19
+        Slytherin = 18
+    if(pregunta==2 and respuesta=='1'):
+        Gryffindor = 17
+        Ravenclaw = 14
+        Hufflepuff = 43
+        Slytherin = 18
+    if(pregunta==2 and respuesta=='2'):
+        Gryffindor = 43
+        Ravenclaw = 16
+        Hufflepuff = 22
+        Slytherin = 14
+    if(pregunta==2 and respuesta=='3'):
+        Gryffindor = 22
+        Ravenclaw = 45
+        Hufflepuff = 16
+        Slytherin = 19
+    if(pregunta==2 and respuesta=='4'):
+        Gryffindor = 18
+        Ravenclaw = 25
+        Hufflepuff = 19
+        Slytherin = 49
+    if(pregunta==3 and respuesta=='1'):
+        Gryffindor = 17
+        Ravenclaw = 45
+        Hufflepuff = 20
+        Slytherin = 17
+    if(pregunta==3 and respuesta=='2'):
+        Gryffindor = 21
+        Ravenclaw = 17
+        Hufflepuff = 20
+        Slytherin = 41
+    if(pregunta==3 and respuesta=='3'):
+        Gryffindor = 47
+        Ravenclaw = 21
+        Hufflepuff = 15
+        Slytherin = 23
+    if(pregunta==3 and respuesta=='4'):
+        Gryffindor = 16
+        Ravenclaw = 17
+        Hufflepuff = 45
+        Slytherin = 20
+    if(pregunta==4 and respuesta=='1'):
+        Gryffindor = 20
+        Ravenclaw = 46
+        Hufflepuff = 18
+        Slytherin = 20
+    if(pregunta==4 and respuesta=='2'):
+        Gryffindor = 45
+        Ravenclaw = 18
+        Hufflepuff = 17
+        Slytherin = 18
+    if(pregunta==4 and respuesta=='3'):
+        Gryffindor = 17
+        Ravenclaw = 15
+        Hufflepuff = 45
+        Slytherin = 15
+    if(pregunta==4 and respuesta=='4'):
+        Gryffindor = 18
+        Ravenclaw = 21
+        Hufflepuff = 20
+        Slytherin = 47
+    if(pregunta==5 and respuesta=='1'):
+        Gryffindor = 18
+        Ravenclaw = 14
+        Hufflepuff = 41
+        Slytherin = 18
+    if(pregunta==5 and respuesta=='2'):
+        Gryffindor = 19
+        Ravenclaw = 20
+        Hufflepuff = 17
+        Slytherin = 44
+    if(pregunta==5 and respuesta=='3'):
+        Gryffindor = 44
+        Ravenclaw = 22
+        Hufflepuff = 19
+        Slytherin = 23
+    if(pregunta==5 and respuesta=='4'):
+        Gryffindor = 19
+        Ravenclaw = 43
+        Hufflepuff = 23
+        Slytherin = 14
+    if(pregunta==6 and respuesta=='1'):
+        Gryffindor = 19
+        Ravenclaw = 17
+        Hufflepuff = 43
+        Slytherin = 21
+    if(pregunta==6 and respuesta=='2'):
+        Gryffindor = 45
+        Ravenclaw = 21
+        Hufflepuff = 17
+        Slytherin = 19
+    if(pregunta==6 and respuesta=='3'):
+        Gryffindor = 17
+        Ravenclaw = 19
+        Hufflepuff = 19
+        Slytherin = 42
+    if(pregunta==6 and respuesta=='4'):
+        Gryffindor = 19
+        Ravenclaw = 44
+        Hufflepuff = 21
+        Slytherin = 19
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+# Calcula el porcetanje asignado para el conjunto 7 de preguntas
+def Porcentaje_Pregunta7(respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(respuesta=='1'):
+        Gryffindor = 9
+        Ravenclaw = 5
+        Hufflepuff = 4
+        Slytherin = 8
+    if(respuesta=='2'):
+        Gryffindor = 7
+        Ravenclaw = 5
+        Hufflepuff = 5
+        Slytherin = 12
+    if(respuesta=='3'):
+        Gryffindor = 8
+        Ravenclaw = 5
+        Hufflepuff = 5
+        Slytherin = 11
+    if(respuesta=='4'):
+        Gryffindor = 6
+        Ravenclaw = 5
+        Hufflepuff = 5
+        Slytherin = 11
+    if(respuesta=='5'):
+        Gryffindor = 6
+        Ravenclaw = 5
+        Hufflepuff = 5
+        Slytherin = 10
+    if(respuesta=='6'):
+        Gryffindor = 6
+        Ravenclaw = 11
+        Hufflepuff = 5
+        Slytherin = 4
+    if(respuesta=='7'):
+        Gryffindor = 7
+        Ravenclaw = 9
+        Hufflepuff = 4
+        Slytherin = 4
+    if(respuesta=='8'):
+        Gryffindor = 7
+        Ravenclaw = 11
+        Hufflepuff = 5
+        Slytherin = 5
+    if(respuesta=='9'):
+        Gryffindor = 5
+        Ravenclaw = 7
+        Hufflepuff = 8
+        Slytherin = 5
+    if(respuesta=='10'):
+        Gryffindor = 6
+        Ravenclaw = 11
+        Hufflepuff = 5
+        Slytherin = 5
+    if(respuesta=='11'):
+        Gryffindor = 7
+        Ravenclaw = 4
+        Hufflepuff = 12
+        Slytherin = 4
+    if(respuesta=='12'):
+        Gryffindor = 6
+        Ravenclaw = 5
+        Hufflepuff = 11
+        Slytherin = 4
+    if(respuesta=='13'):
+        Gryffindor = 9
+        Ravenclaw = 5
+        Hufflepuff = 7
+        Slytherin = 5
+    if(respuesta=='14'):
+        Gryffindor = 6
+        Ravenclaw = 4
+        Hufflepuff = 11
+        Slytherin = 5
+    if(respuesta=='15'):
+        Gryffindor = 6
+        Ravenclaw = 7
+        Hufflepuff = 9
+        Slytherin = 5
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+# Calcula el porcetanje asignado para el conjunto 8 de preguntas
+def Porcentaje_Pregunta8(pregunta, respuesta):
+    Gryffindor, Ravenclaw, Hufflepuff, Slytherin = 0,0,0,0
+    if(pregunta==1 and respuesta=='1'):
+        Gryffindor = 73
+        Ravenclaw = 29
+        Hufflepuff = 24
+        Slytherin = 72
+    if(pregunta==1 and respuesta=='2'):
+        Gryffindor = 27
+        Ravenclaw = 71
+        Hufflepuff = 76
+        Slytherin = 28
+    if(pregunta==2 and respuesta=='1'):
+        Gryffindor = 27
+        Ravenclaw = 69
+        Hufflepuff = 74
+        Slytherin = 27
+    if(pregunta==2 and respuesta=='2'):
+        Gryffindor = 73
+        Ravenclaw = 31
+        Hufflepuff = 26
+        Slytherin = 73
+    if(pregunta==3 and respuesta=='1'):
+        Gryffindor = 29
+        Ravenclaw = 70
+        Hufflepuff = 29
+        Slytherin = 73
+    if(pregunta==3 and respuesta=='2'):
+        Gryffindor = 71
+        Ravenclaw = 30
+        Hufflepuff = 71
+        Slytherin = 27
+    return Gryffindor, Ravenclaw, Hufflepuff, Slytherin
+
+#Calcula los porcentajes asignados para cada respuesta y retorna la casa de mayor valor
+def SeleccionDeCasa(pregunta, respuestas):
+    Gryffindor_total, Ravenclaw_total, Hufflepuff_total, Slytherin_total = 0,0,0,0
+    Gryffindor_1, Ravenclaw_1, Hufflepuff_1, Slytherin_1 = Porcentaje_Pregunta1(pregunta[0], respuestas[0])
+    Gryffindor_2, Ravenclaw_2, Hufflepuff_2, Slytherin_2 = Porcentaje_Pregunta2(pregunta[1], respuestas[1])
+    Gryffindor_3, Ravenclaw_3, Hufflepuff_3, Slytherin_3 = Porcentaje_Pregunta3(pregunta[2], respuestas[2])
+    Gryffindor_4, Ravenclaw_4, Hufflepuff_4, Slytherin_4 = Porcentaje_Pregunta4(pregunta[3], respuestas[3])
+    Gryffindor_5, Ravenclaw_5, Hufflepuff_5, Slytherin_5 = Porcentaje_Pregunta5(pregunta[4], respuestas[4])
+    Gryffindor_6, Ravenclaw_6, Hufflepuff_6, Slytherin_6 = Porcentaje_Pregunta6(pregunta[5], respuestas[5])
+    Gryffindor_7, Ravenclaw_7, Hufflepuff_7, Slytherin_7 = Porcentaje_Pregunta7(respuestas[6])
+    Gryffindor_8, Ravenclaw_8, Hufflepuff_8, Slytherin_8 = Porcentaje_Pregunta8(pregunta[7], respuestas[7])
+    Gryffindor_total = Gryffindor_1 + Gryffindor_2 + Gryffindor_3 + Gryffindor_4 + Gryffindor_5 + Gryffindor_6 + Gryffindor_7 + Gryffindor_8
+    Ravenclaw_total = Ravenclaw_1 + Ravenclaw_2 + Ravenclaw_3 + Ravenclaw_4 + Ravenclaw_5 + Ravenclaw_6 + Ravenclaw_7 + Ravenclaw_8
+    Hufflepuff_total = Hufflepuff_1 + Hufflepuff_2 + Hufflepuff_3 + Hufflepuff_4 + Hufflepuff_5 + Hufflepuff_6 + Hufflepuff_7 + Hufflepuff_8
+    Slytherin_total = Slytherin_1 + Slytherin_2 + Slytherin_3 + Slytherin_4 + Slytherin_5 + Slytherin_6 + Slytherin_7 + Slytherin_8
+    lista_casas = [(Gryffindor_total,"Gryffindor"), (Ravenclaw_total, "Ravenclaw"), (Hufflepuff_total, "Hufflepuff"), (Slytherin_total,"Slytherin")]
+    lista_casas.sort(reverse=True)
+    casa = lista_casas[0]
+    return casa[1]

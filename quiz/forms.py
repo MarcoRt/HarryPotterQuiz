@@ -1,4 +1,5 @@
 from django import forms
+#Declaración de las respuestas
 Pregunta_1 =(
     ("1", "Dawn"),
     ("2", "Dusk")
@@ -179,6 +180,7 @@ Pregunta_28 =(
     ("5", "Liked?"),
     ("6", "Feared?"),
 )
+#Creación de las preguntas como formulario
 class Pregunta1(forms.Form):
 	formulario = forms.MultipleChoiceField(label = "Dawn or dusk?", choices = Pregunta_1)
 
