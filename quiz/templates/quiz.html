@@ -1,11 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <h1>"Hey"</h1>
-</head>
+<link rel="stylesheet" type="text/css" href="{% static 'css/style_quiz.css' %}">
 <body>
-    <p> I wish that we can talk about it</p>
+<div class="sample-section-wrap">
+  <div class="sample-section">
   {% if casa == False %}
+  <h1>Hogwarts Sorting Experience</h1>
   <form method="POST">
 	{% csrf_token %}
 	{{ Pregunta_1.as_p }}
@@ -20,7 +20,9 @@
 </form>
 {% endif %}
 {% if casa%}
-<strong>{{ casa }}</strong>
+<h1>Your Hogwarts house is: </h1>
+<h1>{{ casa }}</h1>
 {% endif %}
+</div>
+</div>
 </body>
-</html>
