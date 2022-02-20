@@ -502,25 +502,25 @@ def Porcentaje_Pregunta6(pregunta, respuesta):
         Hufflepuff = 20
         Slytherin = 47
     if(pregunta==5 and respuesta=='1'):
-        Gryffindor = 18
-        Ravenclaw = 14
-        Hufflepuff = 41
-        Slytherin = 18
+        Gryffindor = 20
+        Ravenclaw = 46
+        Hufflepuff = 18
+        Slytherin = 20
     if(pregunta==5 and respuesta=='2'):
-        Gryffindor = 19
-        Ravenclaw = 20
+        Gryffindor = 45
+        Ravenclaw = 18
         Hufflepuff = 17
-        Slytherin = 44
+        Slytherin = 18
     if(pregunta==5 and respuesta=='3'):
-        Gryffindor = 44
-        Ravenclaw = 22
-        Hufflepuff = 19
-        Slytherin = 23
+        Gryffindor = 17
+        Ravenclaw = 15
+        Hufflepuff = 45
+        Slytherin = 15
     if(pregunta==5 and respuesta=='4'):
-        Gryffindor = 19
-        Ravenclaw = 43
-        Hufflepuff = 23
-        Slytherin = 14
+        Gryffindor = 18
+        Ravenclaw = 21
+        Hufflepuff = 20
+        Slytherin = 47
     if(pregunta==6 and respuesta=='1'):
         Gryffindor = 19
         Ravenclaw = 17
